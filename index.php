@@ -2,10 +2,7 @@
 
 $numbers = [7, 9, 8, 9, 8, 8, 6];
 
-function printArray($array)
-{
-    echo implode($array, ",");
-}
+include "functions.php";
 
 ?>
 <!DOCTYPE html>
@@ -17,6 +14,10 @@ function printArray($array)
 <body>
 <?php
 printArray($numbers);
+echo "<br>";
+largest($numbers);
+echo "<br>";
+average($numbers);
 ?>
 
 </body>
