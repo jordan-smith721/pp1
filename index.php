@@ -18,6 +18,10 @@ echo "<br>";
 largest($numbers);
 echo "<br>";
 average($numbers);
+echo "<br>";
+removeDups($numbers);
+echo "<br>";
+
 ?>
 
 </body>

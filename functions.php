@@ -29,3 +29,12 @@ function average($array)
 
     echo $average;
 }
+
+function removeDups($array)
+{
+    $removedArray = array_unique($array);
+    foreach($removedArray as $element)
+    {
+        echo $element;
+    }
+}
