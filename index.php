@@ -21,7 +21,7 @@ average($numbers);
 echo "<br>";
 removeDups($numbers);
 echo "<br>";
-
+distribution($numbers);
 ?>
 
 </body>

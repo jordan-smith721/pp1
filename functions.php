@@ -38,3 +38,16 @@ function removeDups($array)
         echo $element;
     }
 }
+
+function distribution($array)
+{
+    sort($array);
+    $countedArray = array_count_values($array);
+    $printArray = Array();
+    foreach ($countedArray as $key => $value)
+    {
+        $printArray[] = "$key=>$value";
+    }
+
+    echo '[' . implode(", ", $printArray) . ']';
+}
